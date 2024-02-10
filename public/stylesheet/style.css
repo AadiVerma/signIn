@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+body {
+  font-family: Poppins;
+  margin: 0;
+  padding: 0;
+  color: #ffffffb9;
+  background-color: rgba(0, 0, 0, 0.83);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-div {
+  width: 350px;
+  height: 480px;
+  margin-top: 5%;
+  background: rgba(83, 82, 82, 0.153);
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  box-shadow: 0 8px 32px 0 rgba(17, 17, 17, 0.37);
+  backdrop-filter: blur(20px);
+}
+h1 {
+  text-align: center;
+  align-items: center;
+}
+.form {
+  padding: 10%;
+}
+input {
+  height: 50px;
+  width: 250px;
+  border: 1px solid rgba(129, 127, 127, 0.257);
+  background: rgba(129, 127, 127, 0.257);
+  color: white;
+  border-radius: 5px;
+  padding-left: 10px;
+}
+input::placeholder {
+  color: rgba(255, 255, 255, 0.561);
+}
+input:focus {
+  outline: none;
+  border: 2px solid #fff;
+}
+.login-button > button {
+  width: 250px;
+  height: 40px;
+  border: 2px;
+  border-radius: 10px;
+  margin-top: 5%;
+  border: none;
+  color: black;
+  font-weight: 700;
+  font-size: medium;
+}
+.last > button {
+  height: 30px;
+  width: 100px;
+  border: 2px;
+  margin-top: 7%;
+  margin-left: 5%;
+  border-radius: 5px;
+  border: none;
+  background-color: rgba(83, 82, 82, 0.153);
+  color: #ffffffb9;
+}
+button:hover {
+  background-color: #212121;
+}
+.login-button > button:hover {
+  background-color: rgba(255, 255, 255, 0.632);
+}
+h5 {
+  margin-top: -10px;
+  margin-left: 20%;
+}
