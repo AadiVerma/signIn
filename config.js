@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 mongoose
   .connect(
-    "mongodb+srv://AdityaVerma:vermaaytida151730@cluster0.3gssvoz.mongodb.net/login"
+    ""
   )
   .then(() => {
     try {
